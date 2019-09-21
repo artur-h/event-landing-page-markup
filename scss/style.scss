@@ -11,7 +11,7 @@
 
 //=== Variables ===
 $color-main: #444444;
-$color-secondary: #e71cb4;
+$color-secondary: #ff16b9;
 $color-white: #ffffff;
 //=== / Variables ===
 
@@ -28,7 +28,7 @@ body {
     color: $color-main;
 }
 
-ul, li, h1, h2, h3, h4, h5, h6 {
+ul, li, h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     padding: 0;
 }
@@ -122,6 +122,141 @@ ul, li, h1, h2, h3, h4, h5, h6 {
 //=== / starting-screen ===
 
 //=== description ===
+.section-description {
+    padding-top: 140px;
+    padding-bottom: 155px;
+
+    &__title {
+        margin-bottom: 87px;
+        font-size: 62px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: $color-secondary;
+    }
+    &__text {
+        margin-bottom: 130px;
+        font-size: 32px;
+        line-height: 1.5em;
+    }
+    .course-title {
+        margin-bottom: 75px;
+        font-size: 36px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+    .course-item {
+        display: flex;
+        justify-content: space-between;
+
+        &-left {
+            height: 100%;
+
+            &__wrapper {
+                display: flex;
+                align-items: center;
+                margin-bottom: 78px;
+                min-height: 33.33%;
+                
+                img {
+                    margin-left: 25px;
+                    margin-right: 55px;
+                    width: 15px;
+                    height: 25px;
+                }
+                span {
+                    min-width: 100px;
+                }
+                .item-first {
+                    font-size: 44px;
+                    font-weight: 700;
+                    color: #ffde16;
+                }
+                .item-second {
+                    font-size: 44px;
+                    font-weight: 700;
+                    color: #ffbd9e;
+                }
+                .item-third {
+                    font-size: 44px;
+                    font-weight: 700;
+                    color: #20c9e0;
+                }
+                p {
+                    min-width: 65%;
+                    font-size: 24px;
+                    font-weight: 500;
+                }
+            }
+        }
+        &-right {
+            margin-left: 120px;
+            height: 100%;
+
+            &__wrapper {
+                display: flex;
+                align-items: center;
+                margin-bottom: 78px;
+                min-height: 33.33%;
+
+                img {
+                    margin-right: 55px;
+                    width: 15px;
+                    height: 25px;
+                }
+                span {
+                    min-width: 100px;
+                }
+                .item-fourth {
+                    font-size: 44px;
+                    font-weight: 700;
+                    color: #2eac66;
+                }
+                .item-fifth {
+                    font-size: 44px;
+                    font-weight: 700;
+                    color: #ff6179;
+                }
+                .item-sixth {
+                    font-size: 44px;
+                    font-weight: 700;
+                    color: #ffde16;
+                }
+                p {
+                    min-width: 62%;
+                    font-size: 24px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+    .course-text {
+        margin-bottom: 70px;
+        font-size: 22px;
+        line-height: 1.81em;
+    }
+    .submissions-title {
+        margin-bottom: 35px;
+        font-size: 30px;
+        letter-spacing: 1.05px;
+    }
+    .submissions-text {
+        margin-bottom: 50px;
+        font-size: 14px;
+    }
+    .submissions-btn {
+        a {
+            display: inline-block;
+            padding: 21px 77px;
+            border-radius: 10px;
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            text-decoration: none;
+            background-color: $color-secondary;
+            color: $color-white
+        }
+    }
+}
 //=== / description ===
 
 //=== participants ===

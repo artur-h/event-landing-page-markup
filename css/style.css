@@ -7,7 +7,7 @@ body {
   font-family: 'Poppins', sans-serif;
   color: #444444; }
 
-ul, li, h1, h2, h3, h4, h5, h6 {
+ul, li, h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0; }
 
@@ -44,8 +44,8 @@ ul, li, h1, h2, h3, h4, h5, h6 {
           color: #ffffff; }
         .section-start .header__nav ul li .header__nav-active {
           padding-bottom: 3px;
-          border-bottom: 1px solid #e71cb4;
-          color: #e71cb4; }
+          border-bottom: 1px solid #ff16b9;
+          color: #ff16b9; }
   .section-start-wrapper {
     display: flex;
     flex-direction: column;
@@ -71,3 +71,106 @@ ul, li, h1, h2, h3, h4, h5, h6 {
       font-weight: 700;
       letter-spacing: 0.4px;
       color: #ffffff; }
+
+.section-description {
+  padding-top: 140px;
+  padding-bottom: 155px; }
+  .section-description__title {
+    margin-bottom: 87px;
+    font-size: 62px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ff16b9; }
+  .section-description__text {
+    margin-bottom: 130px;
+    font-size: 32px;
+    line-height: 1.5em; }
+  .section-description .course-title {
+    margin-bottom: 75px;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1px; }
+  .section-description .course-item {
+    display: flex;
+    justify-content: space-between; }
+    .section-description .course-item-left {
+      height: 100%; }
+      .section-description .course-item-left__wrapper {
+        display: flex;
+        align-items: center;
+        margin-bottom: 78px;
+        min-height: 33.33%; }
+        .section-description .course-item-left__wrapper img {
+          margin-left: 25px;
+          margin-right: 55px;
+          width: 15px;
+          height: 25px; }
+        .section-description .course-item-left__wrapper span {
+          min-width: 100px; }
+        .section-description .course-item-left__wrapper .item-first {
+          font-size: 44px;
+          font-weight: 700;
+          color: #ffde16; }
+        .section-description .course-item-left__wrapper .item-second {
+          font-size: 44px;
+          font-weight: 700;
+          color: #ffbd9e; }
+        .section-description .course-item-left__wrapper .item-third {
+          font-size: 44px;
+          font-weight: 700;
+          color: #20c9e0; }
+        .section-description .course-item-left__wrapper p {
+          min-width: 65%;
+          font-size: 24px;
+          font-weight: 500; }
+    .section-description .course-item-right {
+      margin-left: 120px;
+      height: 100%; }
+      .section-description .course-item-right__wrapper {
+        display: flex;
+        align-items: center;
+        margin-bottom: 78px;
+        min-height: 33.33%; }
+        .section-description .course-item-right__wrapper img {
+          margin-right: 55px;
+          width: 15px;
+          height: 25px; }
+        .section-description .course-item-right__wrapper span {
+          min-width: 100px; }
+        .section-description .course-item-right__wrapper .item-fourth {
+          font-size: 44px;
+          font-weight: 700;
+          color: #2eac66; }
+        .section-description .course-item-right__wrapper .item-fifth {
+          font-size: 44px;
+          font-weight: 700;
+          color: #ff6179; }
+        .section-description .course-item-right__wrapper .item-sixth {
+          font-size: 44px;
+          font-weight: 700;
+          color: #ffde16; }
+        .section-description .course-item-right__wrapper p {
+          min-width: 62%;
+          font-size: 24px;
+          font-weight: 500; }
+  .section-description .course-text {
+    margin-bottom: 70px;
+    font-size: 22px;
+    line-height: 1.81em; }
+  .section-description .submissions-title {
+    margin-bottom: 35px;
+    font-size: 30px;
+    letter-spacing: 1.05px; }
+  .section-description .submissions-text {
+    margin-bottom: 50px;
+    font-size: 14px; }
+  .section-description .submissions-btn a {
+    display: inline-block;
+    padding: 21px 77px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    background-color: #ff16b9;
+    color: #ffffff; }
