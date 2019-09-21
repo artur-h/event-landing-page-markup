@@ -11,7 +11,7 @@
 
 //=== Variables ===
 $color-main: #444444;
-$color-secondary: #c60ebe;
+$color-secondary: #e71cb4;
 $color-white: #ffffff;
 //=== / Variables ===
 
@@ -28,6 +28,11 @@ body {
     color: $color-main;
 }
 
+ul, li, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
 .section-outer {
     padding-right: 20px;
     padding-left: 20px;
@@ -39,10 +44,81 @@ body {
 }
 //=== / Common ===
 
-//=== header ===
-//=== / header ===
-
 //=== starting-screen ===
+.section-start {
+    background: url(../assets/img/starting-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 26px;
+
+        &__logo {
+            font-size: 33.51px;
+            font-weight: 700;
+            color: $color-white;
+        }
+        &__nav {
+            ul {
+                display: flex;
+                list-style: none;
+
+                li {
+                    margin-left: 36.5px;
+
+                    a {
+                        font-size: 16px;
+                        font-weight: 700;
+                        text-decoration: none;
+                        color: $color-white;
+                    }
+
+                    .header__nav-active {
+                        padding-bottom: 3px;
+                        border-bottom: 1px solid $color-secondary;
+                        color: $color-secondary;
+                    }
+                }
+            }
+        }
+    }
+
+    &-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 225px;
+        padding-bottom: 276px;
+
+        &__title {
+            margin-bottom: 27px;
+            font-size: 60px;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            color: $color-white;
+        }
+        &__subtitle {
+            margin-bottom: 87px;
+            font-size: 30px;
+            font-weight: 400;
+            color: $color-white;
+        }
+        &__btn {
+            a {
+                padding: 10px 20px 13px 20px;
+                border: 2px solid $color-white;
+                border-radius: 10px;
+                text-decoration: none;
+                font-weight: 700;
+                letter-spacing: 0.4px;
+                color: $color-white;
+            }
+        }
+    }
+}
 //=== / starting-screen ===
 
 //=== description ===
