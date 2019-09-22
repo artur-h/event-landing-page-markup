@@ -358,6 +358,23 @@ ul, li, h1, h2, h3, h4, h5, h6, p {
 //=== / participants ===
 
 //=== sponsors ===
+.section-sponsors {
+    padding-top: 80px;
+    padding-bottom: 115px;
+
+    &__title {
+        margin-bottom: 80px;
+        text-align: center;
+        font-size: 62px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
 //=== / sponsors ===
 
 //=== executives ===

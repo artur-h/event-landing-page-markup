@@ -245,3 +245,17 @@ ul, li, h1, h2, h3, h4, h5, h6, p {
     .section-participants__countdown-wrapper .countdown-active {
       border: 2px solid #ffffff;
       background: transparent; }
+
+.section-sponsors {
+  padding-top: 80px;
+  padding-bottom: 115px; }
+  .section-sponsors__title {
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 62px;
+    font-weight: 700;
+    letter-spacing: 1px; }
+  .section-sponsors__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
