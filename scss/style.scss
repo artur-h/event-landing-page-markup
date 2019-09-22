@@ -7,6 +7,9 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+@mixin linear-gradient {
+    background: linear-gradient(180deg , rgba(51,51,153,1) 0%,rgba(51,51,153,1) 36%,rgba(56,50,154,1) 39%,rgba(72,46,158,1) 46%,rgba(100,39,165,1) 54%,rgba(218,9,195,1) 85%,rgba(242,3,201,1) 94%,rgba(255,0,204,1) 100%);
+}
 //=== / Mixin ===
 
 //=== Variables ===
@@ -260,6 +263,98 @@ ul, li, h1, h2, h3, h4, h5, h6, p {
 //=== / description ===
 
 //=== participants ===
+.section-participants {
+    @include linear-gradient;
+    
+    padding-top: 147px;
+    padding-bottom: 118px;
+
+    &__title {
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: 62px;
+        font-weight: 700;
+        letter-spacing: 1.8px;
+        color: $color-white;
+    }
+    &__text {
+        margin-bottom: 45px;
+        text-align: center;
+        font-size: 22px;
+        line-height: 1.82em;
+        color: $color-white;
+    }
+    &-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 auto 75px;
+        width: 95%;
+
+        &__item {
+            .picture {
+                margin-bottom: 16px;
+                border-radius: 12px;
+            }
+            .name {
+                margin-bottom: 17px;
+                text-align: center;
+                font-size: 24px;
+                font-weight: 700;
+                letter-spacing: 1px;
+                color: $color-white;
+            }
+            .position {
+                margin-bottom: 28px;
+                text-align: center;
+                font-size: 16px;
+                color: $color-white;
+            }
+        }
+    }
+    &__countdown {
+        margin-bottom: 54px;
+        text-align: center;
+        font-size: 62px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: $color-white;
+    }
+    &__countdown-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 857px;
+
+        &__item {
+            width: 160px;
+            height: 160px;
+            background-color: #470340;
+            
+            .number {
+                @include font-secondary;
+                
+                margin-top: 20px;
+                margin-bottom: 12px;
+                font-size: 71.4px;
+                font-weight: 700;
+                text-align: center;
+                color: $color-white
+            }
+            .time {
+                @include font-secondary;
+
+                font-size: 18.07px;
+                text-align: center;
+                color: $color-white
+            }
+        }
+        .countdown-active {
+            border: 2px solid $color-white;
+            background: transparent;
+        }
+    }
+}
 //=== / participants ===
 
 //=== sponsors ===

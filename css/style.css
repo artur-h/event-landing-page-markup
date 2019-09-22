@@ -174,3 +174,74 @@ ul, li, h1, h2, h3, h4, h5, h6, p {
     text-decoration: none;
     background-color: #ff16b9;
     color: #ffffff; }
+
+.section-participants {
+  background: linear-gradient(180deg, #333399 0%, #333399 36%, #38329a 39%, #482e9e 46%, #6427a5 54%, #da09c3 85%, #f203c9 94%, #ff00cc 100%);
+  padding-top: 147px;
+  padding-bottom: 118px; }
+  .section-participants__title {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 62px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    color: #ffffff; }
+  .section-participants__text {
+    margin-bottom: 45px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.82em;
+    color: #ffffff; }
+  .section-participants-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto 75px;
+    width: 95%; }
+    .section-participants-wrapper__item .picture {
+      margin-bottom: 16px;
+      border-radius: 12px; }
+    .section-participants-wrapper__item .name {
+      margin-bottom: 17px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: #ffffff; }
+    .section-participants-wrapper__item .position {
+      margin-bottom: 28px;
+      text-align: center;
+      font-size: 16px;
+      color: #ffffff; }
+  .section-participants__countdown {
+    margin-bottom: 54px;
+    text-align: center;
+    font-size: 62px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ffffff; }
+  .section-participants__countdown-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 857px; }
+    .section-participants__countdown-wrapper__item {
+      width: 160px;
+      height: 160px;
+      background-color: #470340; }
+      .section-participants__countdown-wrapper__item .number {
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 20px;
+        margin-bottom: 12px;
+        font-size: 71.4px;
+        font-weight: 700;
+        text-align: center;
+        color: #ffffff; }
+      .section-participants__countdown-wrapper__item .time {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18.07px;
+        text-align: center;
+        color: #ffffff; }
+    .section-participants__countdown-wrapper .countdown-active {
+      border: 2px solid #ffffff;
+      background: transparent; }
