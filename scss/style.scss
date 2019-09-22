@@ -482,4 +482,69 @@ ul, li, h1, h2, h3, h4, h5, h6, p {
 //=== / contact-us ===
 
 //=== footer ===
+.section-footer {
+    padding-top: 66px;
+    padding-bottom: 60px;
+    background-color: #eeeeee;
+    
+    &__title {
+        margin-bottom: 40px;
+        font-size: 36px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+    &__text {
+        margin-bottom: 26px;
+        font-size: 16px;
+        letter-spacing: 0.05px;
+        text-align: center;
+    }
+    &__subscribe {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 85px;
+
+        input {
+            margin-right: 7px;
+            padding: 20px 15px 20px 15px;
+            border: none;
+            border-radius: 10px;
+            max-width: 400px;
+            width: 100%;
+            font-size: 18px;
+            letter-spacing: 0.3px;
+            outline: none;
+        }
+        button {
+            padding: 0px 23px;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: 700;
+            color: $color-white;
+            background-color: $color-secondary;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+
+        &-social {
+            position: relative;
+            margin: 0 3.5px;
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            background-color: #dedede;
+
+            img {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}
 //=== / footer ===
