@@ -42,6 +42,7 @@ ul, li, h1, h2, h3, h4, h5, h6, p {
 }
 
 .section-inner {
+    position: relative;
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -416,6 +417,68 @@ ul, li, h1, h2, h3, h4, h5, h6, p {
 //=== / jury ===
 
 //=== contact-us ===
+.section-contact {
+    padding-top: 86px;
+    padding-bottom: 200px;
+
+    &__title {
+        margin-bottom: 65px;
+        font-size: 63.87px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        text-align: center;
+    }
+    &__text {
+        margin: 0px auto 69px;
+        max-width: 65%;
+        font-size: 22px;
+        line-height: 1.815em;
+        text-align: center;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0px auto 122px;
+        width: 56%;
+
+        input {
+            margin-bottom: 35px;
+            padding: 11px 12px 11px 0px;
+            border: none;
+            border-bottom: 5px solid $color-main;
+            min-width: 303px;
+            font-size: 13px;
+            outline: none;
+        }
+        .focus {
+            border-bottom: 2px solid $color-main;
+        }
+    }
+    .input-msg {
+        display: block;
+        margin: 0 auto;
+        padding: 12px 12px 12px 0px;
+        border: none;
+        border-bottom: 5px solid $color-main;
+        max-width: 56%;
+        width: 100%;
+        font-size: 13px;
+        outline: none;
+    }
+    .submit-btn {
+        position: absolute;
+        right: 269px;
+        margin-top: 43px;
+        padding: 18.5px 21.5px;
+        border: none;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 1.4px;
+        color: $color-white;
+        background-color: $color-main;
+    }
+}
 //=== / contact-us ===
 
 //=== footer ===
